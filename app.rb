@@ -20,7 +20,7 @@ end
 
 get '/named-cat' do
   p params
-  @random_name = params[:name]
+  @name = params[:name]
   @surname = params[:surname]
   erb(:index)
 end
